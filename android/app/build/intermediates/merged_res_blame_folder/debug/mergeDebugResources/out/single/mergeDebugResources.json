@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable-mdpi_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable-mdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable-xhdpi_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable-xhdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable-xxxhdpi_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable-xxxhdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable_bootsplash.xml.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable/bootsplash.xml"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable-xxhdpi_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable-xxhdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/drawable-hdpi_bootsplash_logo.png.flat",
+        "source": "com.awesomeproject.app-main-47:/drawable-hdpi/bootsplash_logo.png"
+    },
+    {
+        "merged": "com.awesomeproject.app-debug-45:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.awesomeproject.app-main-47:/mipmap-xxhdpi/ic_launcher.png"
+    }
+]
