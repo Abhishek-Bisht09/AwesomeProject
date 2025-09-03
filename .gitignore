@@ -38,6 +38,13 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
+# Android build artifacts
+/android/app/build/
+/android/build/
+*.apk
+*.aab
+
+
 # BUCK
 buck-out/
 \.buckd/
