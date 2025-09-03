@@ -6,6 +6,7 @@ import {
 import ImagePicker from 'react-native-image-crop-picker';
 
 import { request, PERMISSIONS, RESULTS } from "react-native-permissions";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const FaceUpload = () => {
    const navigation = useNavigation();
@@ -99,7 +100,7 @@ const takePhoto = async () => {
 };
 
   return (
-    <View style={{ flex: 1, backgroundColor:'white' }}>
+    <SafeAreaView style={{ flex: 1, backgroundColor:'white' }}>
        {photo ? (
   <>
     <Text style={[styles.header, { color: '#000000' }]}> FACIAL ATTRIBUTES</Text>
@@ -136,18 +137,18 @@ const takePhoto = async () => {
     <TouchableOpacity style={{flexDirection:'column', alignItems:'center'}}
       onPress={pickFromGallery}>
       <Image source={require('../assets/photo.png')} style={styles.upload} />
-      <Text style={{fontWeight:'bold', fontSize:20}}>{"From Gallery"}</Text>
+      <Text style={{fontWeight:'bold', fontSize:20, color:'#000000'}}>{"From Gallery"}</Text>
     </TouchableOpacity>
 
     <TouchableOpacity style={{flexDirection:'column', alignItems:'center'}}
       onPress={takePhoto}>
       <Image source={require('../assets/camera.png')} style={styles.upload} />
-      <Text style={{fontWeight:'bold', fontSize:20}}>{"Take a selfie"}</Text>
+      <Text style={{fontWeight:'bold', fontSize:20, color:'#000000'}}>{"Take a selfie"}</Text>
     </TouchableOpacity>
   </View>
 )}
 
-       </View>
+       </SafeAreaView>
     
   );
 };

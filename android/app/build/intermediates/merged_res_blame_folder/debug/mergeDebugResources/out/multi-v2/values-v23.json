@@ -4,25 +4,6 @@
             "outputFile": "com.awesomeproject.app-mergeDebugResources-43:/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/abhishek/Desktop/check/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,7",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,397",
-                        "endLines": "6,10",
-                        "endColumns": "12,12",
-                        "endOffsets": "392,642"
-                    },
-                    "to": {
-                        "startLines": "53,58",
-                        "startColumns": "4,4",
-                        "startOffsets": "3382,3724",
-                        "endLines": "57,61",
-                        "endColumns": "12,12",
-                        "endOffsets": "3719,3969"
-                    }
-                },
-                {
                     "source": "/Users/abhishek/.gradle/caches/transforms-4/31cfda600687dfda576ca7ff6793b36c/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
@@ -39,6 +20,25 @@
                         "endLines": "52",
                         "endColumns": "12",
                         "endOffsets": "3377"
+                    }
+                },
+                {
+                    "source": "/Users/abhishek/Desktop/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,7",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,397",
+                        "endLines": "6,10",
+                        "endColumns": "12,12",
+                        "endOffsets": "392,642"
+                    },
+                    "to": {
+                        "startLines": "53,58",
+                        "startColumns": "4,4",
+                        "startOffsets": "3382,3724",
+                        "endLines": "57,61",
+                        "endColumns": "12,12",
+                        "endOffsets": "3719,3969"
                     }
                 },
                 {

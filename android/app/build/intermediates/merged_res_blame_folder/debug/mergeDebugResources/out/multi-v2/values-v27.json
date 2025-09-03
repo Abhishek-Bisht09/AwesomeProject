@@ -4,7 +4,7 @@
             "outputFile": "com.awesomeproject.app-mergeDebugResources-43:/values-v27/values-v27.xml",
             "map": [
                 {
-                    "source": "/Users/abhishek/Desktop/check/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-v27/values-v27.xml",
+                    "source": "/Users/abhishek/Desktop/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-v27/values-v27.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

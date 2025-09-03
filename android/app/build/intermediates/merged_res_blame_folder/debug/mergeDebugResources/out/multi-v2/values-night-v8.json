@@ -4,24 +4,7 @@
             "outputFile": "com.awesomeproject.app-mergeDebugResources-43:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/abhishek/.gradle/caches/transforms-4/848cc8724d51f56ac06081dc3ee8fcbd/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,687",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,771"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,38",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,125,209,293,389,491,593,3719",
-                        "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "120,204,288,384,486,588,682,3803"
-                    }
-                },
-                {
-                    "source": "/Users/abhishek/Desktop/check/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
+                    "source": "/Users/abhishek/Desktop/AwesomeProject/node_modules/react-native-bootsplash/android/build/intermediates/packaged_res/debug/packageDebugResources/values-night-v8/values-night-v8.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -37,6 +20,23 @@
                         "endLines": "11",
                         "endColumns": "12",
                         "endOffsets": "826"
+                    }
+                },
+                {
+                    "source": "/Users/abhishek/.gradle/caches/transforms-4/848cc8724d51f56ac06081dc3ee8fcbd/transformed/appcompat-1.7.0/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,38",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,3719",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,3803"
                     }
                 },
                 {

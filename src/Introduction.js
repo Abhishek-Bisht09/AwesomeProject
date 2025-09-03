@@ -8,6 +8,7 @@ import {
   Dimensions,
 } from "react-native";
 import { useNavigation } from "@react-navigation/native";
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const { width, height } = Dimensions.get("window");
 
@@ -15,7 +16,7 @@ const Introduction = () => {
   const navigation = useNavigation();
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Image
         style={styles.logo}
         source={require("../assets/first_screen.png")}
@@ -36,7 +37,7 @@ const Introduction = () => {
           />
         </TouchableOpacity>
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -68,6 +69,7 @@ const styles = StyleSheet.create({
   text: {
     fontWeight: "400",
     fontSize: width * 0.05, // ~20px on standard width
+    color:'#000000'
   },
   arrowWrap: {
     width: width * 0.2,

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Image, StyleSheet, Text, View } from 'react-native';
 import * as Progress from 'react-native-progress';
+import { SafeAreaView } from "react-native-safe-area-context";
 
 const Success = () => {
   const [progress, setProgress] = useState(0);
@@ -20,7 +21,7 @@ const Success = () => {
   }, []);
 
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Image source={require('../assets/success.png')} style={styles.upload} />
       <Text style={styles.message}>
         {"Selfie Captured Perfectly!\nLets build your own fashion avatar."}
@@ -28,7 +29,7 @@ const Success = () => {
       <View style={{ marginTop: '10%' }}>
         <Progress.Bar progress={progress} width={300} color="black" />
       </View>
-    </View>
+    </SafeAreaView>
   );
 };
 
@@ -50,5 +51,7 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     fontSize: 20,
     textAlign: 'center',
+    color:'#000000'
+
   },
 });
